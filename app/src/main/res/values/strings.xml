@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hackspace-reto1</string>
+    <string name="email">E-MAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOG IN</string>
+    <string name="sing_up">SING UP</string>
+    <string name="help">HELP</string>
+    <string name="fullname">FULL NAME</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="your_e_mail_goes_here">Your E-mail goes here</string>
+    <string name="passoword_text">********</string>
+    <string name="i_agree_all_statements_in">I agree all statements in Terms of service</string>
+    <string name="X">X</string>
+    <string name="telephone">TELEPHONE</string>
+    <string name="enter_your_telephone">Enter your telephone</string>
+    <string name="user_icon">User icon</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+</resources>

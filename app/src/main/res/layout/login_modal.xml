@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.josesp.hackspace_reto1.LoginActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/X"
+            android:textSize="20sp"
+            android:id="@+id/close_dialog_sing_up"
+            android:textAlignment="textEnd" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fullname"
+        android:textColor="@color/primary_text"
+        />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_full_name"
+        android:inputType="text"
+        android:theme="@style/edit_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/email"
+        android:textColor="@color/primary_text"
+
+        />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_e_mail_goes_here"
+        android:inputType="textEmailAddress"
+        android:theme="@style/edit_text" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/telephone"
+        android:textColor="@color/primary_text"
+
+        />
+
+    <EditText
+        android:id="@+id/txtTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_telephone"
+        android:inputType="phone"
+        android:theme="@style/edit_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/password"
+        android:textColor="@color/primary_text"
+        />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/passoword_text"
+        android:inputType="textPassword"
+        android:theme="@style/edit_text" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbx_agree_all_statements"
+        android:text="@string/i_agree_all_statements_in"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:textSize="18sp"
+        android:text="@string/login"
+        android:id="@+id/button_login"
+        android:theme="@style/Raised_button_blue"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

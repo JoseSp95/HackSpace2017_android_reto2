@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    
+    <style name="edit_text2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">@color/icons</item>
+        <item name="colorControlHighlight">@color/icons</item>
+    </style>
+
+    <style name="Raised_button_blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorButtonNormal">@color/primary_blue</item>
+        <item name="colorControlHighlight">@color/primary</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="Raised_button_green" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorButtonNormal">@color/primary_green</item>
+        <item name="colorControlHighlight">@color/primary</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="edit_text" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textColorHint">@color/divider</item>
+        <item name="backgroundTint">@color/primary_light</item>
+    </style>
+
+</resources>
